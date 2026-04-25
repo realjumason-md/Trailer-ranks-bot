@@ -1,16 +1,23 @@
 {
-  "name": "@workspace/bot",
-  "version": "0.0.0",
-  "private": true,
+  "name": "trailer-ranks-bot",
+  "version": "6.2.0",
+  "description": "TRAILER ❄️ RANKS WhatsApp MD Bot",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.18",
-    "openai": "^4.104.0",
-    "pino": "^9.5.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^8.17.2",
+    "node-cache": "^5.1.2",
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "@hapi/boom": "^10.0.1",
     "qrcode-terminal": "^0.12.0"
   }
 }
